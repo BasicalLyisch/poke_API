@@ -1,0 +1,80 @@
+
+
+body{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  position: relative;
+  background-color: rgb(31, 38, 56);
+  color: beige;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main_card_wrapper{
+  position: static;
+  margin: auto;
+  width: 300px;
+  height: 450px;
+  border: 3px solid rgb(0, 180, 235);
+  background-color: rgb(87, 1, 1);
+  padding: 10px;
+  align-items: center;
+  
+}
+
+.pokemon_sprite_container{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  
+}
+
+
+#pokemonSprite{
+position: relative;
+margin: auto;
+border: 3rem;
+background-color: rgb(0, 193, 241);
+width: 200px;
+height: 200px;
+}
+
+.HP_style{
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  width: 200px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  top: 15px;
+}
+
+.pokemon_name_container{
+  position: relative;
+  width: 80px;
+  height: 100px;
+  background-color: rgb(255, 25, 25);
+  align-content: center;
+  margin-bottom: 10px;
+  
+}
+
+#pokemon_displayedName{
+  
+  font-size: 20px;
+  position: relative;
+  align-content: center;
+  color: rgb(248, 211, 0);
+  text-align: center;
+  width: 130px;
+  height: 45px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(0, 95, 90);
+  border-color: blueviolet;
+}

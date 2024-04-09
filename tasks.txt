@@ -1,0 +1,11 @@
+
+- - - !! to do list !! - - -
+
+
+- add HP of pokemon and make the script fetch it
+- add two moves by fetching them
+- color the card base on the type of the pokemon
+
+ DONE vvv- make it so MISSIGNO.PNG appears if :
+ vvv- the pokemon name input does not exist  DONE
+

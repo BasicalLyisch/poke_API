@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1>welcome to pokemon card game api fetch!</h1>
+
+  <input type="text" id="pokemonName" placeholder="your pokemon here!">
+  <button onclick="fetch_sprite()">Fetch pokemon</button> <br>
+
+  <p id="current_action">i'm not fetching anything yet!</p>
+  
+  <div class="main_card_wrapper">
+
+    <div class="pokemon_displayedName_container">
+      <h1 id="pokemon_displayedName">Who's that pokemon?</h1>
+    </div>
+  
+
+    <div class="HP_style">
+      <p>HP</p> 
+      <h1 id="pokemon_HP">???</h1>
+      <p> ATK</p>
+      <h1 id="pokemon_ATK" >???</h1>
+      <p> DEF</p>
+      <h1 id="pokemon_DEF">???</h1>
+    </div>
+    
+    <br><br><br><br>
+    
+    <div class="classpokemon_sprite_container">
+    <img src="" alt="Pokemon sprite" class="classpokemon_sprite_container" id="pokemonSprite" style="display: none" style="height: 2.5rem;" style="width: 2.5rem;">
+    </div>
+
+
+    <div class="HP_style">
+      <p>SATK</p> 
+      <h1 id="pokemon_SATK">???</h1>
+      <p> SDEF</p>
+      <h1 id="pokemon_SDEF" >???</h1>
+      <p> SPEED</p>
+      <h1 id="pokemon_SPEED">???</h1>
+    </div>
+
+  </div>
+  
+<script src="index.js"></script>
+</body>
+</html>
